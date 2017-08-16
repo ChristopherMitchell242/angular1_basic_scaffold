@@ -1,0 +1,26 @@
+{
+  "name": "angular1_basic_scaffold",
+  "version": "0.0.1",
+  "description": "Basic Angular Application for Testing Webapps",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherMitchell242/angular1_basic_scaffold.git"
+  },
+  "author": "ChristopherMitchell242",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherMitchell242/angular1_basic_scaffold/issues"
+  },
+  "homepage": "https://github.com/ChristopherMitchell242/angular1_basic_scaffold#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-connect": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest"
+  }
+}

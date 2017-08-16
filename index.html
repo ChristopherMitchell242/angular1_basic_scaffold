@@ -1,14 +1,17 @@
 <!doctype html>
 <html ng-app>
   <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
   </head>
   <body>
     <div>
-      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <h1>A Basic Angular App For Testing</h1>
+      <h2>This is a basic angular app using npm, sass and grunt</h2>
       <hr>
-      <h1>Hello {{yourName}}!!</h1>
+      <label>To Prove Working Data Binding Type Here:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <h2>Your Text:  {{yourName}}</h2>
     </div>
   </body>
 </html>
